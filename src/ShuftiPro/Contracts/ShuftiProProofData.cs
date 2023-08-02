@@ -13,5 +13,7 @@ namespace ShuftiPro.Contracts
         public ShuftiProProof Consent { get; set; }
 
         public string AccessToken { get; set; }
+
+        public string VerificationReport { get; set; }
     }
 }

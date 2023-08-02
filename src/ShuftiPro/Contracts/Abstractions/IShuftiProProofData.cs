@@ -15,5 +15,9 @@ namespace ShuftiPro.Contracts.Abstractions
 
         [JsonProperty("consent")]
         ShuftiProProof Consent { get; set; }
+
+        [JsonProperty("verification_report")]
+        string VerificationReport { get; set; }
+
     }
 }
