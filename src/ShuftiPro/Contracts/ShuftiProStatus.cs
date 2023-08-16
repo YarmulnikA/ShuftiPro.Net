@@ -11,6 +11,8 @@ namespace ShuftiPro.Contracts
 
         public string Country { get; set; }
 
+        public string Email { get; set; }
+
         public string DeclinedReason { get; set; }
 
         public string[] DeclinedCodes { get; set; }
