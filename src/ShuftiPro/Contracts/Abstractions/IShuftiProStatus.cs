@@ -10,5 +10,8 @@ namespace ShuftiPro.Contracts.Abstractions
 
         [JsonProperty("additional_data")]
         ShuftiProAdditionalData AdditionalData { get; set; }
+
+        [JsonProperty("email")]
+        string Email { get; set; }
     }
 }
