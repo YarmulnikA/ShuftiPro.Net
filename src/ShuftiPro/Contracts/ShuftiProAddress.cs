@@ -14,7 +14,9 @@ namespace ShuftiPro.Contracts
 
         public string FullAddress { get; set; }
 
-        public string Proof { get; set; }
+		public string Country { get; set; }
+
+		public string Proof { get; set; }
 
         public string TaxIdentityNumber { get; set; }
 

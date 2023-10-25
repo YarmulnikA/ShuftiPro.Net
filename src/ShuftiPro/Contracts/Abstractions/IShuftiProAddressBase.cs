@@ -12,7 +12,11 @@ namespace ShuftiPro.Contracts.Abstractions
         [StringLength(250, MinimumLength = 2)]
         string FullAddress { get; set; }
 
-        [JsonProperty("tax_identity_number", NullValueHandling = NullValueHandling.Ignore)]
+		[StringLength(100, MinimumLength = 2)]
+		[JsonProperty("country", NullValueHandling = NullValueHandling.Ignore)]
+		string Country { get; set; }
+
+		[JsonProperty("tax_identity_number", NullValueHandling = NullValueHandling.Ignore)]
         [StringLength(255, MinimumLength = 2)]
         string TaxIdentityNumber { get; set; }
 
