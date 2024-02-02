@@ -25,6 +25,9 @@ namespace ShuftiPro.Enums
         [EnumMember(Value = "request.received")]
         RequestReceived,
 
+        [EnumMember(Value = "request.data.changed")]
+        RequestDataChanged,
+
         [EnumMember(Value = "verification.accepted")]
         VerificationAccepted,
 
