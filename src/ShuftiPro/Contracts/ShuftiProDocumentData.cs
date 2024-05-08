@@ -16,11 +16,11 @@ namespace ShuftiPro.Contracts
 
         public string DocumentNumber { get; set; }
 
-        public string Country { get; set; }
+        public String Country { get; set; }
 
-        public DateTime? IssueDate { get; set; }
+        public String IssueDate { get; set; }
 
-        public DateTime? ExpiryDate { get; set; }
+        public String ExpiryDate { get; set; }
 
         public ShuftiProDocumentType[] SelectedTypes { get; set; }
 

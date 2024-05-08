@@ -26,13 +26,13 @@ namespace ShuftiPro.Contracts.Abstractions
         [JsonProperty("country", NullValueHandling = NullValueHandling.Ignore)]
         string Country { get; set; }
 
-        [JsonConverter(typeof(ShuftiProDateTimeConverter))]
+        //[JsonConverter(typeof(ShuftiProDateTimeConverter))]
         [JsonProperty("issue_date", NullValueHandling = NullValueHandling.Ignore)]
-        DateTime? IssueDate { get; set; }
+        String IssueDate { get; set; }
 
-        [JsonConverter(typeof(ShuftiProDateTimeConverter))]
+        //[JsonConverter(typeof(ShuftiProDateTimeConverter))]
         [JsonProperty("expiry_date", NullValueHandling = NullValueHandling.Ignore)]
-        DateTime? ExpiryDate { get; set; }
+        String ExpiryDate { get; set; }
 
         [JsonProperty("supported_types", Required = Required.Always)]
         ShuftiProDocumentType[] SupportedTypes { get; set; }
