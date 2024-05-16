@@ -9,8 +9,8 @@ namespace ShuftiPro.Contracts
         [Required]
         public ShuftiProName Name { get; set; }
 
-        [Required]
-        public DateTime? DayOfBirth { get; set; }
+
+        public string DayOfBirth { get; set; }
 
         public bool? OnGoing { get; set; }
     }

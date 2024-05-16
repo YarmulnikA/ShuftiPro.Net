@@ -7,7 +7,7 @@ namespace ShuftiPro.Contracts
     {
         public ShuftiProNameData Name { get; set; }
 
-        public DateTime? DayOfBirth { get; set; }
+        public string DayOfBirth { get; set; }
 
         public ShuftiProAmlData AmlData { get; set; }
     }

@@ -8,6 +8,6 @@ namespace ShuftiPro.Contracts.Abstractions
     {
         [JsonConverter(typeof(ShuftiProDateTimeConverter))]
         [JsonProperty("dob", NullValueHandling = NullValueHandling.Ignore)]
-        DateTime? DayOfBirth { get; set; }
+        string DayOfBirth { get; set; }
     }
 }

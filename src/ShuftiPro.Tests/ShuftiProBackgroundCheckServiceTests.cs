@@ -24,7 +24,7 @@ namespace ShuftiPro.Tests
                         LastName = lastName,
                         FuzzyMatch = true
                     },
-                    DayOfBirth = new DateTime(year, month, day)
+                    //DayOfBirth = new DateTime(year, month, day)
                 }
             };
 
