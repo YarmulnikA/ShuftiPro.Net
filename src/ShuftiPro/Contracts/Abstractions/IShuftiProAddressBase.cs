@@ -24,7 +24,7 @@ namespace ShuftiPro.Contracts.Abstractions
         [JsonProperty("issue_date", NullValueHandling = NullValueHandling.Ignore)]
         DateTime? IssueDate { get; set; }
 
-        [JsonProperty("supported_types", Required = Required.Always)]
+        [JsonProperty("supported_types", NullValueHandling = NullValueHandling.Ignore)]
         ShuftiProAddressType[] SupportedTypes { get; set; }
     }
 }

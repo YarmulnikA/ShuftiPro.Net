@@ -34,7 +34,7 @@ namespace ShuftiPro.Contracts.Abstractions
         [JsonProperty("expiry_date", NullValueHandling = NullValueHandling.Ignore)]
         DateTime? ExpiryDate { get; set; }
 
-        [JsonProperty("supported_types", Required = Required.Always)]
+        [JsonProperty("supported_types", NullValueHandling = NullValueHandling.Ignore)]
         ShuftiProDocumentType[] SupportedTypes { get; set; }
     }
 }
