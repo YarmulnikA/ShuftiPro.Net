@@ -20,7 +20,7 @@ namespace ShuftiPro.Contracts
 
         public string TaxIdentityNumber { get; set; }
 
-        public DateTime? IssueDate { get; set; }
+        public String IssueDate { get; set; }
 
         public bool? AddressFuzzyMatch { get; set; }
 
