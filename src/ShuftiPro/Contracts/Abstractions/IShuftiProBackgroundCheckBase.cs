@@ -6,7 +6,7 @@ namespace ShuftiPro.Contracts.Abstractions
 {
     interface IShuftiProBackgroundCheckBase
     {
-        [JsonConverter(typeof(ShuftiProDateTimeConverter))]
+        //[JsonConverter(typeof(ShuftiProDateTimeConverter))]
         [JsonProperty("dob", NullValueHandling = NullValueHandling.Ignore)]
         string DayOfBirth { get; set; }
     }
